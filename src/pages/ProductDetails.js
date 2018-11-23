@@ -4,9 +4,10 @@ import Layout from '../components/Layout';
 import { LocaleContext } from '../contexts';
 import trans from '../trans';
 import products from '../products';
-// class ProductDetails extends Component {
-    export default function ProductDetails(props) {
-    // render() {
+class ProductDetails extends Component {
+    // export default function ProductDetails(props) {
+    render() {
+        const props = this.props;
         const product = products.find(
             product => product.slug === props.match.params.product
         );
@@ -69,7 +70,7 @@ import products from '../products';
             </div>
     </Layout >
         );
-    // }    
+    }    
 }
 
-// export default ProductDetails;
+export default ProductDetails;

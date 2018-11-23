@@ -5,7 +5,10 @@ import LocaleSelect from './LocaleSelect';
 import { LocaleContext } from '../contexts';
 import trans from '../trans';
 
+// class Layout extends Component {
 export default function Layout({ children }) {
+    // render () {
+    // const { children } = this.props;
     return (
         <div className="container">
             <nav className="navbar" aria-label="main navigation">
@@ -41,4 +44,6 @@ export default function Layout({ children }) {
             {children}
         </div>
     );
+// }
 }
+// export default Layout;

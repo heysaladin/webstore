@@ -2,7 +2,7 @@ import React, { Fragment, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import { LocaleContext } from './contexts';
 import * as serviceWorker from './serviceWorker';
 //import ProductList from './ProductList';

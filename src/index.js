@@ -26,8 +26,8 @@ function LazyImport(Component) {
     );
 }
 
-const ProductList = LazyImport(() => import('./ProductList'));
-const ProductDetails = LazyImport(() => import('./ProductDetails'));
+const ProductList = LazyImport(() => import('./pages/ProductList'));
+const ProductDetails = LazyImport(() => import('./pages/ProductDetails'));
 
 class AppRouter extends React.Component {
     state = {

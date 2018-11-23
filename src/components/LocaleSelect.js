@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { LocaleContext } from './contexts';
+import { LocaleContext } from '../contexts';
 
 export default class LocaleSelect extends React.Component {
     state = {
